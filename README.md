@@ -67,6 +67,7 @@ A) In the singleThread.c, I use "ShaMan Hash Shared Library" (SHA1 SHA256 SHA384
    "md5.h".(You can also install the labrary.)   
  
    Using the following style to execute the program.
+   
    [lozhou@ict~]$gcc -c singleThread.c md5.c
    [lozhou@ict~]$ar -r libmain.a singleThread.o md5.o
    [lozhou@ict~]$gcc -Wall singleThread.c libmain.a -o singleThread
