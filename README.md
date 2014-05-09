@@ -13,26 +13,26 @@ Src description:
 
 Single thread
 
--shell_MD5.c      /*enchmarking md5sum(1) in a loop to get good estimate*/
+- shell_MD5.c      /*enchmarking md5sum(1) in a loop to get good estimate*/
 
 pthread-based program:
 
--singleThread.c   /*sing thread program source code*/
+- singleThread.c   /*sing thread program source code*/
 
--md5.h            /*ShaMan Hash Shared Library md5 head file*/
+- md5.h            /*ShaMan Hash Shared Library md5 head file*/
 
--md5.c            /*ShaMan Hash Shared Library md5 source code*/
-
--2threads.c       /*2 threads program*/
-
--nthreads.c       /*n threads program, n=4*/
+- md5.c            /*ShaMan Hash Shared Library md5 source code*/
+  
+- 2threads.c       /*2 threads program*/
+ 
+- nthreads.c       /*n threads program, n=4*/
 
 clone(2)-based program
 
--2process.c       /*clone-based 2 processes program*/
+- 2process.c       /*clone-based 2 processes program*/
 
--nprocess.c       /*clone-based 4 processes program*/
-
+- nprocess.c       /*clone-based 4 processes program*/
+ 
 "ShaMan Hash Shared Library"(Copyright (c) 2007James Mrad).tar.gz
 /*shared library that provides md5 algorithm*/
 
