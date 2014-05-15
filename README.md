@@ -60,9 +60,8 @@ A) In the singleThread.c, I use "ShaMan Hash Shared Library" (SHA1 SHA256 SHA384
    SHA512 MD5 BASE64 + random string generator) Copyright (c) 2007 James Mrad 
    (xtremejames183@msn.com)". The library is attached in the submission folder. 
    (http://codes-sources.commentcamarche.net/source/view/43690/1115864). 
-   (Although Dr.Locasto provides the library gcrypt, but he said we could feel 
-   free to use the other library. The "ShaMan Hash Shared Library" provide many
-   hased algorithms, for simplification and for your making convenivence, I as 
+   The "ShaMan Hash Shared Library" provide many hased algorithms, 
+   for simplification and for your making convenivence, I as 
    well pick the md5 related files to do the homework, namely "md5.c" and 
    "md5.h".(You can also install the labrary.)   
  
